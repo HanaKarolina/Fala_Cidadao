@@ -20,3 +20,127 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*Novo cógio chat*/
+
+/* Adicione este CSS ao seu arquivo de estilos ou na seção <style> da sua página */
+body {
+    background-color: #f8f9fa; /* Um tom claro para o fundo */
+}
+
+h1 {
+    color: #1528B1; /* International Klein Blue para o título */
+}
+
+.form-control {
+    border: 1px solid #17A5BB; /* Moonstone para as bordas dos inputs */
+    background-color: #e7f5fb; /* Tom mais claro de Moonstone para fundo dos inputs */
+}
+
+.btn-primary {
+    background-color: #393EEF; /* Palatinate blue para os botões */
+    border-color: #393EEF; /* Mesma cor para a borda */
+}
+
+.btn-primary:hover {
+    background-color: #1528B1; /* Muda para International Klein Blue ao passar o mouse */
+    border-color: #1528B1;
+}
+
+.form-group label {
+    color: #17A5BB; /* Moonstone para os rótulos */
+}
+
+.text-danger {
+    color: #ff6b6b; /* Vermelho para as mensagens de erro */
+}
+
+a.btn-primary {
+    background-color: #17A5BB; /* Moonstone para o botão de voltar */
+    border-color: #17A5BB;
+}
+
+a.btn-primary:hover {
+    background-color: #393EEF; /* Muda para Palatinate blue ao passar o mouse */
+    border-color: #393EEF;
+}
+
+/*PARTE 2*/
+
+/* Estilos para centralizar o formulário de cadastro e dar transparência */
+.form-cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz com que o container ocupe a altura total da tela */
+    opacity: 100%;
+}
+
+.form-cadastro {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco com 80% de opacidade */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    padding: 20px;
+    max-width: 400px; /* Limita a largura do formulário */
+    width: 90%; /* Ajusta a largura conforme o tamanho da tela */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+    /* Estilo para os campos do formulário */
+    .form-cadastro .form-control {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    /* Estilo para o botão */
+    .form-cadastro .btn-primary {
+        width: 100%;
+        padding: 10px;
+        background-color: #000000; /* Cor do botão */
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px; /* Bordas arredondadas */
+        cursor: pointer;
+    }
+
+        .form-cadastro .btn-primary:hover {
+            background-color: #333333; /* Cor do botão ao passar o mouse */
+        }
+
+    .form-cadastro .text-muted {
+        font-size: 12px;
+        margin: 10px 0;
+        text-align: center;
+        color: #666666;
+    }
+
+        .form-cadastro .text-muted a {
+            color: #007BFF; /* Cor dos links */
+            text-decoration: none;
+        }
+
+            .form-cadastro .text-muted a:hover {
+                text-decoration: underline;
+            }
+
+body.cadastro {
+    position: relative; /* Para posicionar a imagem corretamente */
+    margin: 0; /* Remove a margem padrão */
+    height: 100vh; /* Garante que o body tenha a altura total da tela */
+    overflow: hidden; /* Evita rolagem se a imagem for maior que a tela */
+}
+
+.background-image {
+    position: absolute; /* Posiciona a imagem em relação ao body */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz a imagem ocupar toda a largura */
+    height: 100%; /* Faz a imagem ocupar toda a altura */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre todo o espaço */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
